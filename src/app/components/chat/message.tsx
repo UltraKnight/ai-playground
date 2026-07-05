@@ -1,6 +1,7 @@
 "use client";
 
 import type { UIMessage } from "ai";
+import { Markdown } from "../markdown";
 
 type MessageProps = { message: UIMessage };
 
@@ -13,7 +14,7 @@ export function Message({ message }: MessageProps) {
         {message.parts.map((part, index) => {
           if (part.type !== "text") return null;
 
-          return <p key={index}>{part.text}</p>;
+          return <Markdown key={index}>{part.text}</Markdown>;
         })}
       </div>
     </div>
