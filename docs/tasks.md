@@ -8,9 +8,9 @@
 
 ## Current Sprint
 
-Sprint 3.2 — UX Polish
+Sprint 4 — Prompt Engineering
 
-Status: 🟡 In Progress
+Status: 🟢 Ready to start
 
 ---
 
@@ -43,6 +43,8 @@ Status: 🟡 In Progress
 
 ## Sprint 3 — UX Polish 🟡
 
+> Focus: Learn prompt engineering from first principles while preparing the project for provider-agnostic AI interactions.
+
 ### Markdown
 
 - [x] Markdown rendering
@@ -51,17 +53,14 @@ Status: 🟡 In Progress
 
 ### UX
 
-- [ ] Auto-scroll
-- [ ] Chat bubbles
-- [ ] Header
-- [ ] Empty state
-- [ ] Loading indicator
-- [ ] Copy code button
-- [ ] Better spacing
-- [ ] Responsive layout
-
-Commit:
-feat(chat): improve chat experience
+- [x] Auto-scroll
+- [x] Chat bubbles
+- [x] Header
+- [x] Empty state
+- [x] Loading indicator
+- [ ] Copy code button (Deferred)
+- [x] Better spacing
+- [x] Responsive layout
 
 ---
 

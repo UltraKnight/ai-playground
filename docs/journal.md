@@ -55,3 +55,26 @@ Build the first ChatGPT-like interface.
 - Keep components focused on a single responsibility.
 - Separate presentation from AI logic.
 - Design components for future extensibility.
+
+---
+
+# Sprint 3 — UX Polish
+
+## Summary
+
+This sprint focused on improving the overall chat experience without introducing unnecessary architectural complexity.
+
+## Implemented
+
+- GitHub Flavored Markdown
+- Auto-scroll
+- Chat bubbles
+- Header
+- Empty state
+- Loading indicator
+
+## Engineering Decisions
+
+- Kept the current component architecture.
+- Avoided premature abstractions.
+- Deferred Copy Code Button until a better Markdown rendering strategy is implemented.

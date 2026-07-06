@@ -24,9 +24,21 @@ Status:
 - Markdown rendering
 - Syntax highlighting
 
+### Sprint 3 — UX Polish
+- GitHub Flavored Markdown
+- Auto-scroll
+- Chat bubbles
+- Header
+- Empty state
+- Loading indicator
+
 ## Current Architecture
 
 Browser
+
+↓
+
+Chat
 
 ↓
 
@@ -46,11 +58,13 @@ Gemini
 
 ## Next Tasks
 
-1. Auto-scroll
-2. Chat bubbles
-3. Header
-4. Empty state
-5. Loading indicator
+### Prompt Engineering
+
+- System prompts
+- Prompt organization
+- Prompt presets
+- Prompt engineering fundamentals
+- Provider-agnostic prompt architecture
 
 ## Decisions
 
@@ -58,6 +72,8 @@ Gemini
 - AI SDK as transport layer.
 - Never render raw HTML.
 - Provider-agnostic architecture.
+- Keep the chat architecture simple.
+- Avoid premature abstractions.
 
 ## Pending Refactors
 
@@ -65,9 +81,8 @@ None
 
 ## Known Issues
 
-- No auto-scroll
 - No syntax theme customization
-- Basic layout
+- Copy code button not implemented yet.
 
 ## Current Branch
 
