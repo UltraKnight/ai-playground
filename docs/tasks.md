@@ -72,11 +72,10 @@ Status: 🟢 Ready to start
 - [x] Prompt presets
 - [x] Centralize generation configuration
 - [x] Introduce provider abstraction
-- [ ] Temperature control
-- [ ] Top-P control
-- [ ] Max tokens
-- [ ] Model selector
-- [ ] Prompt inspector
+- [x] Temperature control
+- [x] Top-P control
+- [x] Max tokens
+- [x] Model selector
 
 Engineering Concepts
 
@@ -141,6 +140,7 @@ Engineering Concepts
 
 ### Objectives
 
+- [ ] Prompt inspector
 - [ ] Provider abstraction
 - [ ] Gemini
 - [ ] OpenAI

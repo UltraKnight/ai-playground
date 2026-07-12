@@ -33,20 +33,19 @@ Last Updated: 2026-07-07
 - Decoupled prompt logic from the API route.
 - Centralized generation configuration
 - Provider abstraction
+- Temperature
+- Top-P
+- Max Output Tokens
+- Model selection
+- Provider-agnostic generation configuration
+- AI error normalization
+- Friendly provider error messages
 
-## Next
-
-### Sprint 4
-
-- ⏳ Temperature UI
-- ⏳ Top-P
-- ⏳ Max Tokens
-- ⏳ Model selection
-- ⏳ Prompt Inspector
+The Prompt Inspector was postponed to the AI Observability sprint, where it can expose prompts, context, RAG retrievals, tool calls, MCP interactions, latency and token usage from a single debugging interface.
 
 ## Current Sprint
 
-Sprint 4 — Prompt Engineering
+Sprint 5
 
 ## Current Architecture
 
